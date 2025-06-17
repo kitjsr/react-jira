@@ -7,6 +7,8 @@ import { Dashboard } from "./Components/Dashboard";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Nav from 'react-bootstrap/Nav';
 import { Image } from "react-bootstrap";
+import { Sidebar } from "react-pro-sidebar";
+import { ForUser } from "./Components/ForUser";
 
 function App() {
   return (
@@ -27,7 +29,9 @@ function App() {
       <Routes>
         <Route path="" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route path="/profile" element={<Profile/>} />
+        <Route path="/sidebar" element={<Sidebar/>} />
+        <Route path="/forUser" element={<ForUser/>} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="*" element={<Home />} />
       </Routes>

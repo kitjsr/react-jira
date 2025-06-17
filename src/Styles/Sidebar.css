@@ -1,0 +1,18 @@
+/* *{
+    background: beige;
+} */
+.dash1{
+    background: beige;
+}
+
+.sidebar{
+    background: red;
+    float: left;
+}
+.mainarea{
+    text-align: center;
+    display:flex;
+    background: beige;
+    float: left;
+
+}

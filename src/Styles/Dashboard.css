@@ -10,6 +10,7 @@
     float: left;
 }
 .mainarea{
+    text-align: center;
     display:flex;
     background: beige;
     float: left;

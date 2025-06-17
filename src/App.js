@@ -11,10 +11,8 @@ import { Image } from "react-bootstrap";
 function App() {
   return (
     <div>
-      <div className="logo1">
-          <Image src={logo} className="App-logo"></Image>
-      </div>
       <Nav className="justify-content-end" activeKey="/home">
+          <Image src={logo} className="App-logo"></Image>
         <Nav.Item className="nav1">
           <Nav.Link><Link to="/home">Home</Link></Nav.Link>
         </Nav.Item>
